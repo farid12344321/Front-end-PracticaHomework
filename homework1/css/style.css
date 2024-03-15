@@ -1,0 +1,117 @@
+
+
+.navbar1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #535353;
+}
+
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+.navbar1 .numbers a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar1 .numbers a i{
+    margin-right: 10px;
+    color: orange;
+}
+
+.navbar1 .icoon{
+   
+    margin-top: 10px;
+}
+
+.navbar1 .icoon ul{
+    display: flex;
+}
+
+.navbar1 .icoon li{
+    list-style: none;
+}
+
+.navbar1 .icoon li i{
+    color: white;
+    margin-right: 10px;
+}
+
+
+.navbar2 .section ul{
+    gap: 20px;
+    display: flex;
+}
+
+.navbar2 .section a{
+    text-decoration: none;
+    color: gray;
+}
+
+
+.box2{
+    background-color: #f7f7f7;
+}
+
+.box2 a{
+    color: red;
+    font-size: 15px;
+}
+
+
+.cards{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.card-body h5{
+    
+}
+
+.card-body span{
+    font-size: 13px;
+}
+
+.card-body p{
+    color: gray;
+    margin-top: 15px;
+}
+
+
+.cards img{
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cards .icons{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.cards .icons ul{
+   
+    gap: 12px;
+    display: flex;
+   
+}
+
+.cards .icons ul i{
+    color: #7e7e7e;
+    font-size: 20px;
+}
+
+.cards .icons i:hover{
+    color: red;
+}
